@@ -2,8 +2,14 @@
 	box-sizing: border-box;
 }
 
-body {
+html, body {
+	height: 100%;
 	background-color: #A9A9A9;
+}
+
+#main {
+	min-height: 100%;
+	margin-bottom: -75px;
 }
 
 header {
@@ -30,16 +36,32 @@ header a {
 	background-color: #FFF;
 	margin: 0 auto;
 	width: 80%;
+	height: 500px;
 	border-radius: 2px;
-
 	min-height: 100px;
 	margin-top: 20px;
 	text-align: center;
+
 }
 
 .container img {
 	max-width: 100%;
 }
+
+
+footer {
+	margin-top: 20px;
+	background-color: #444444;
+	text-align: center;
+	height: 75px;
+	width: 100%;
+	color: white;
+}
+
+
+
+
+
 
 @media (max-width: 600px) {
 	header {
