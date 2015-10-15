@@ -1,0 +1,22 @@
+html, body {
+}
+
+.main-wrapper {
+	width: 80%;
+	margin: 0 auto;
+}
+
+header {
+	margin-top: 40px;
+	overflow: auto;
+}
+
+header h1 {
+	float: left;
+	margin: 0;
+}
+
+.get-to-the-right-bro {
+	float: right;
+}
+
